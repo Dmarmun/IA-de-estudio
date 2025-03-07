@@ -8,7 +8,7 @@ import io
 
 gemini_api_key = "AIzaSyDygrN4dfBjdXrdfvpe55cAMgpFRCC-2hQ"
 genai.configure(api_key=gemini_api_key)
-pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "Tesseract/tesseract.exe"
 
 def extract_text_from_pdf(pdf_path):
     """Extrae texto de un archivo PDF, incluyendo imágenes con texto."""
