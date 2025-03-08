@@ -8,7 +8,7 @@ from PIL import Image  # Para trabajar con imágenes
 import io  # Para manejar datos en memoria
 
 # Configuración de la clave de API para Gemini AI
-gemini_api_key = "AIzaSyDygrN4dfBjdXrdfvpe55cAMgpFRCC-2hQ"
+gemini_api_key = ""
 genai.configure(api_key=gemini_api_key)  # Configura la clave de API de Gemini
 pytesseract.pytesseract.tesseract_cmd = "Tesseract/tesseract.exe"  # Ruta para el ejecutable de Tesseract
 
